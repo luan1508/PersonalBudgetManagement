@@ -1,0 +1,7 @@
+enum PaymentCategory {
+  FOOD_AND_DRINKS,
+  EDUCATION,
+  TRANSPORT,
+  ENTERTAINMENT
+}
+

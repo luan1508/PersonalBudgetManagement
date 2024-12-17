@@ -1,10 +1,11 @@
+import 'package:personal_budget_management/data/payment_category.dart';
 import 'package:personal_budget_management/data/payment_method.dart';
 
 class Payment {
   String? reason;
   DateTime? date;
   double? amount;
-  String? category;
+  PaymentCategory? category;
   PaymentMethod? paymentMethod;
 
   Payment.empty();
